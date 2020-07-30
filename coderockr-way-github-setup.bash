@@ -71,6 +71,7 @@ if [ -z "$GITHUB_USERNAME" ] || [ -z "$GITHUB_REPO" ] && [ -z $GITHUB_TOKEN ]; t
 fi
 
 REMOVE_DEFAULT_LABELS='bug
+documentation
 duplicate
 enhancement
 good%20first%20issue
